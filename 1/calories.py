@@ -1,4 +1,4 @@
-with open('calories.txt') as f:
+with open('1/calories.txt') as f:
     lines = f.readlines()
     best = 0
     current_total = 0
