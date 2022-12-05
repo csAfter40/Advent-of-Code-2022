@@ -42,7 +42,8 @@ def get_moves(lines:List[str], index:int) -> List[List]:
 
 def make_move(crate_map:dict, move:List) -> None:
     """
-    Given a dictionary of crate map and a list of move info, modifies the crate map.
+    Given a dictionary of crate map and a list of move info, modifies the crate 
+    map using CrateMover 9000 method.
     """
     for i in range(int(move[0])):
         crate_map[move[1]], char = crate_map[move[1]][:-1], crate_map[move[1]][-1]
